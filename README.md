@@ -1,48 +1,47 @@
-# Smart List API
+# 🛒 Smart List API
 
-API para um aplicativo mobile de lista de compras inteligente, desenvolvido em React Native. A proposta é ajudar o usuário a lembrar do que precisa comprar: quando ele sair de casa, o aplicativo poderá avisá-lo sobre os itens pendentes na lista.
+Uma API para um app mobile de lista de compras inteligente, desenvolvido em React Native. A ideia é simples: ajudar você a lembrar do que precisa comprar. Saiu de casa? O app poderá avisar sobre os itens que estão esperando na sua lista. 🏠📍
 
-## Objetivo
+## ✨ A ideia
 
-A API dará suporte ao aplicativo mobile e à gestão das listas e dos itens de compra. A experiência planejada inclui um lembrete contextual, apresentado quando o usuário sair de casa, para que ele não esqueça o que precisa comprar.
+A API dará suporte ao aplicativo mobile e à organização das listas e dos itens de compra. A experiência planejada inclui um lembrete na hora certa — quando você sair de casa — para não deixar nada para trás. 🧺
 
-> **Estado atual:** projeto em fase inicial. As funcionalidades de listas, itens, usuários, localização e notificações ainda não estão implementadas; portanto, não há endpoints de negócio documentados neste momento.
+> 🚧 **Projeto em construção:** funcionalidades de listas, itens, usuários, localização e notificações ainda estão no radar. Por enquanto, não há endpoints de negócio implementados.
 
-## Tecnologias
+## 🧰 Tecnologias
 
-- Java 21
-- Spring Boot 4.1.1
-- Spring Web MVC
-- Spring Data JPA
-- Bean Validation
-- SQLite JDBC
-- Maven (inclui Maven Wrapper)
+- ☕ Java 21
+- 🌱 Spring Boot 4.1.1
+- 🌐 Spring Web MVC
+- 💾 Spring Data JPA e SQLite JDBC
+- ✅ Bean Validation
+- 📦 Maven (com Maven Wrapper)
 
-## Pré-requisitos
+## 📋 Antes de começar
 
-- JDK 21
+- JDK 21 instalado
 
-O Maven Wrapper incluído no projeto pode ser usado sem uma instalação global do Maven.
+Com o Maven Wrapper incluído, você não precisa instalar o Maven separadamente. 🙌
 
-## Executar localmente
+## ▶️ Rodando o projeto
 
-No Windows, na pasta do projeto:
+Abra um terminal na pasta do projeto e execute:
 
 ```powershell
 .\mvnw.cmd spring-boot:run
 ```
 
-No Linux ou macOS:
+No Linux ou macOS, use:
 
 ```bash
 ./mvnw spring-boot:run
 ```
 
-A configuração inicial define o nome da aplicação como `smart-list-api`. Endpoints e porta serão documentados quando forem implementados.
+A aplicação está configurada com o nome `smart-list-api`. Os endpoints e a porta serão adicionados aqui quando estiverem definidos. 🔌
 
-## Testes
+## 🧪 Executando os testes
 
-Para executar os testes:
+No Windows:
 
 ```powershell
 .\mvnw.cmd test
@@ -54,20 +53,20 @@ No Linux ou macOS:
 ./mvnw test
 ```
 
-## Estrutura do projeto
+## 🗂️ Onde encontrar as coisas
 
 ```text
 src/
 ├── main/
-│   ├── java/com/smartlist/smartlistapi/  # Código da aplicação
-│   └── resources/                       # Configurações e recursos
+│   ├── java/com/smartlist/smartlistapi/  # ☕ Código da aplicação
+│   └── resources/                       # ⚙️ Configurações e recursos
 └── test/
-    └── java/com/smartlist/smartlistapi/ # Testes
+    └── java/com/smartlist/smartlistapi/ # 🧪 Testes
 ```
 
-## Próximos passos
+## 🚀 O que vem por aí
 
-- Definir os recursos e contratos da API para listas e itens de compra.
-- Implementar persistência e validação dos dados.
-- Integrar o aplicativo mobile com a API.
-- Definir como a localização e o aviso ao sair de casa serão tratados entre o aplicativo e a API.
+- 📝 Definir os recursos e contratos da API para listas e itens.
+- 💾 Implementar a persistência e a validação dos dados.
+- 📱 Conectar o app mobile à API.
+- 📍 Definir como localização e lembretes ao sair de casa vão funcionar.
